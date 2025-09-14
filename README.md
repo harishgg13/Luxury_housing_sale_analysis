@@ -120,6 +120,12 @@ Market trends & builder performance
 
 Amenity impact on bookings
 
+Conversion rates & sales efficiency
+
+Geographical project insights
+
+Building an end-to-end pipeline from raw data → cleaned dataset → visualization
+
 ------------------------------------------------------------------------
 
 ## 👨‍💻 Author
@@ -127,11 +133,3 @@ Amenity impact on bookings
 **G G Harish**
 - 📧 Email: <harishgg03@gmail.com>
 - 💼 LinkedIn: [harishgg13](https://www.linkedin.com/in/ggharish13)
-
-Conversion rates & sales efficiency
-
-Geographical project insights
-
-Building an end-to-end pipeline from raw data → cleaned dataset → visualization
-
----
