@@ -6,6 +6,8 @@ The Luxury Housing Sales Data Cleaning Project focuses on preparing real-estate 
 
 Raw real-estate data is often messy and inconsistent, containing missing values, formatting errors, and potential outliers. This project applies systematic data cleaning techniques to ensure accuracy, consistency, and usability of the dataset for further analytics, visualization, and reporting in Power BI.
 
+------------------------------------------------------------------------
+
 ## 🎯 Objectives
 
 - **Used Python to do data extraction, cleaning and pushing the datas to database**
@@ -29,7 +31,7 @@ Raw real-estate data is often messy and inconsistent, containing missing values,
 
 Prepare the cleaned dataset for storage in a **SQL database** for use in **Power BI dashboards**.
 
----
+------------------------------------------------------------------------
 
 ## 🛠 Tech Stack
 
@@ -43,7 +45,7 @@ SQLAlchemy + MySQL – Database connection and storage of cleaned data
 
 Power BI – Interactive dashboards, visualization, and trend analysis
 
----
+------------------------------------------------------------------------
 
 ## 📊 Power BI Visualizations
 
@@ -69,7 +71,7 @@ Geographical Insights – Project concentration across Bangalore (Map).
 
 Top Performers – Top 5 builders by revenue & bookings (KPI Cards).
 
----
+------------------------------------------------------------------------
 
 ## 🛠️ Requirements  
 Install dependencies before running the script:  
@@ -77,7 +79,7 @@ Install dependencies before running the script:
 pip install pandas matplotlib sqlalchemy pymysql
 ```  
 
----
+------------------------------------------------------------------------
 
 ## ▶️ Usage  
 1. Update the `data_path` variable with the location of your dataset.  
@@ -91,14 +93,14 @@ pip install pandas matplotlib sqlalchemy pymysql
    ```  
 4. Find cleaned dataset in `LHS.csv`.  
 
----
+------------------------------------------------------------------------
 
 ## 📊 Notes  
 - Outliers in `Ticket_Price_Cr` (>50 Cr) and `Unit_Size_Sqft` (>1000 sqft or very high values) were identified but **not removed**, since they could be valid cases.  
 - The script allows exporting cleaned data to SQL or CSV.  
 - Visualizations (histograms) are available but commented out for optional use.  
 
----
+------------------------------------------------------------------------
 
 ## 🎓 Skills & Learning Outcomes
 
@@ -117,6 +119,14 @@ Designing Power BI dashboards for:
 Market trends & builder performance
 
 Amenity impact on bookings
+
+------------------------------------------------------------------------
+
+## 👨‍💻 Author
+
+**G G Harish**
+- 📧 Email: <harishgg03@gmail.com>
+- 💼 LinkedIn: [harishgg13](https://www.linkedin.com/in/ggharish13)
 
 Conversion rates & sales efficiency
 
